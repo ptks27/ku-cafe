@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "ห้องพัก 101",
+      "unitPrice": "3500",
+      "thumbnail": "/images/product/77.png",
+      "productDescription": " "
+    },
+    {
+      "productName": "ห้องพัก 102",
+      "unitPrice": "3500",
+      "thumbnail": "/images/product/77.png",
+      "id": 2
+    },
+    {
+      "productName": "ห้องพัก 103",
+      "unitPrice": "3500",
+      "thumbnail": "/images/product/77.png",
+      "id": 7
+    }
+  ],
+  "orders": [
+    {
+      "orderedDate": "2024-02-05T07:18:21.478Z",
+      "totalPrice": 7000,
+      "orders": [
+        {
+          "product": {
+            "productName": "ห้องพัก 103",
+            "unitPrice": "3500",
+            "thumbnail": "/images/product/77.png",
+            "id": 7
+          },
+          "quantity": 2
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
